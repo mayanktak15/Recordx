@@ -1,0 +1,1 @@
+document.querySelector('#grant').onclick = async () => {try { const stream = await navigator.mediaDevices.getUserMedia({audio:true}); stream.getTracks().forEach(t=>t.stop()); document.querySelector('#result').textContent='Microphone enabled. Return to your meeting tab to record.';}catch(e){document.querySelector('#result').textContent=e.message;}};

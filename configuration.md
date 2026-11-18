@@ -1,0 +1,1 @@
+Recording configuration: Video ON, Microphone ON at 80%, Tab Audio ON at 100%.
